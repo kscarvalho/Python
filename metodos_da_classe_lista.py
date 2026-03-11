@@ -55,4 +55,31 @@ linguagens.pop() #java
 linguagens.pop() #c
 linguagens.pop(0) #python
 
+#remove
+linguagens = ["python", "js", "cb"]
+linguagens.remove("c")
+input(linguagens)
 
+#reverse
+linguagens = ["python", "js", "c"]
+linguagens.reverse()
+print(linguagens)
+
+#sort OBS tambem tem o sorted
+leiguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort()
+
+leiguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort(reverse=True)
+
+leiguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort(key=lambda x: len(x))
+
+leiguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort(key=lambda x: len(x), reverse=True)
+
+#len
+linguagens = ["python", "js", "c", "java", "csharp"]
+len(linguagens)
+
+#
